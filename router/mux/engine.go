@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/devopsfaith/krakend/router"
+	"github.com/eric-sciberras/krakend/router"
 )
 
 // Engine defines the minimun required interface for the mux compatible engine

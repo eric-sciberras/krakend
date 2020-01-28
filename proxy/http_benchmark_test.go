@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/eric-sciberras/krakend/config"
 )
 
 func BenchmarkNewRequestBuilderMiddleware(b *testing.B) {

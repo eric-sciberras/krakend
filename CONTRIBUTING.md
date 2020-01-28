@@ -5,7 +5,7 @@ you can contribute and make this project more awesome, please see below:
 
 ## Reporting an Issue
 
-If you believe you have found an issue with the code please do not hesitate to file an issue in [Github](https://github.com/devopsfaith/krakend/issues). When
+If you believe you have found an issue with the code please do not hesitate to file an issue in [Github](https://github.com/eric-sciberras/krakend/issues). When
 filing the issue please describe the problem with the maximum level of detail
 and the steps to reproduce the problem, including information about your
 environment.
@@ -23,7 +23,7 @@ the change with the owners before investing a lot of time coding. The process
 could be:
 
 1. Open an issue explaining the improvment or fix you want to add
-2. [Fork the project](https://github.com/devopsfaith/krakend/fork_select)
+2. [Fork the project](https://github.com/eric-sciberras/krakend/fork_select)
 3. Code it in your fork
 4. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request) referencing the issue
 

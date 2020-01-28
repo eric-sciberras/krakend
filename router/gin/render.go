@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/encoding"
-	"github.com/devopsfaith/krakend/proxy"
+	"github.com/eric-sciberras/krakend/config"
+	"github.com/eric-sciberras/krakend/encoding"
+	"github.com/eric-sciberras/krakend/proxy"
 	"github.com/gin-gonic/gin"
 )
 

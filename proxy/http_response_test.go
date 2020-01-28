@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/devopsfaith/krakend/encoding"
+	"github.com/eric-sciberras/krakend/encoding"
 )
 
 func TestNopHTTPResponseParser(t *testing.T) {

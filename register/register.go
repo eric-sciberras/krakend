@@ -1,7 +1,7 @@
 package register
 
 import (
-	"github.com/devopsfaith/krakend/register/internal"
+	"github.com/eric-sciberras/krakend/register/internal"
 )
 
 func New() *Namespaced {
