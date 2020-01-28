@@ -7,6 +7,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
+	"encoding/json"
 
 	"github.com/devopsfaith/krakend/config"
 )
@@ -308,5 +309,6 @@ func combineData(total int, parts []*Response) *Response {
 		return &Response{Data: make(map[string]interface{}, 0), IsComplete: isComplete}
 	}
 	retResponse.IsComplete = isComplete
-	return retResponse
+	data, err := json.Marshal(retResponse)
+	return data
 }
