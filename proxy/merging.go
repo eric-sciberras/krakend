@@ -7,9 +7,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"encoding/json"
 
-	"github.com/eric-sciberras/krakend/config"
+	"github.com/devopsfaith/krakend/config"
 )
 
 // NewMergeDataMiddleware creates proxy middleware for merging responses from several backends
@@ -309,6 +308,7 @@ func combineData(total int, parts []*Response) *Response {
 		return &Response{Data: make(map[string]interface{}, 0), IsComplete: isComplete}
 	}
 	retResponse.IsComplete = isComplete
-	data, err := json.Marshal(retResponse)
-	return data
+	jsonData, err := json.Marshal(retResponse.data)
+	retResponse.Data := jsonData
+	return retResponse
 }
